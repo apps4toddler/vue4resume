@@ -1,15 +1,15 @@
 <template>
-  <div class="project">
+  <section class="project">
     project
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .project {
-  width:100%;
-  background-color: purple;
+  color:purple;
+  border:1px solid #ccc;
 }
 
 </style>

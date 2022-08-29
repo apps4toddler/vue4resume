@@ -1,15 +1,15 @@
 <template>
-  <div class="skill">
+  <section class="skill">
     skill
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .skill {
-  width:100%;
-  background-color: orange;
+  color:orange;
+  border:1px solid #ccc;
 }
 
 </style>

@@ -8,7 +8,12 @@
 
 <style lang="scss">
 .switches {
-  width:100%;
-  background-color: red;
+  color:red;
+  border:1px solid #ccc;
+
+  display:flex;
+  position: fixed;
+  top: var(--space-2);
+  right: var(--space-4);
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div class="content">
   <div class="main">
-    <Introduction />
+    <About />
     <Contact />
     <Skill />
     <Education />
@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import Switches from "@/layouts/Switches.vue";
-import Introduction from "@/layouts/Introduction.vue";
+import About from "@/layouts/About.vue";
 import Contact from "./layouts/Contact.vue";
 import Skill from "./layouts/Skill.vue";
 import Education from "./layouts/Education.vue";
@@ -25,11 +25,29 @@ import Project from "./layouts/Project.vue";
 </script>
 
 <style lang="scss">
+@import "@/scss/main.scss";
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+.content {
+  max-width: 1280px;
 }
+
+.content {
+  position: relative;
+  min-width:320px;
+  margin: var(--space-6) auto;
+  padding: var(--space-6) 0;
+  box-shadow:
+    0 8px 16px rgb(110 120 130 / 12%),
+    0 -8px 16px rgb(110 120 130 / 12%);
+  background: var(--light);
+}
+
+.main {
+  display: flex;
+  flex-direction:column;
+  height: calc(100vh - calc((var(--space-6) * 4)));
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 </style>

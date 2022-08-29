@@ -1,15 +1,15 @@
 <template>
-  <div class="experience">
+  <section class="experience">
     experience
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .experience {
-  width:100%;
-  background-color: yellow;
+  color:darkolivegreen;
+  border:1px solid #ccc;
 }
 
 </style>

@@ -1,15 +1,15 @@
 <template>
-  <div class="education">
+  <section class="education">
     education
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .education {
-  width:100%;
-  background-color: pink;
+  color:pink;
+  border:1px solid #ccc;
 }
 
 </style>

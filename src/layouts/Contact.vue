@@ -1,12 +1,12 @@
 <template>
-  <div class="contact">contact</div>
+  <section class="contact">contact</section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .contact {
-  width:100%;
-  background-color:green;
+  color:green;
+  border:1px solid #ccc;
 }
 </style>

@@ -1,15 +1,15 @@
 <template>
-  <div class="publication">
+  <section class="publication">
     publication
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
 <style type="scss">
 .publication {
-  width:100%;
-  background-color: grey;
+  color:grey;
+  border:1px solid #ccc;
 }
 
 </style>
